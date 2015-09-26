@@ -59,6 +59,11 @@ group :development do
   gem 'spring'
 end
 
+group :production do 
+
+  gem 'mysql'
+end
+
 
 gem 'spree', '3.0.4'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
