@@ -65,6 +65,22 @@ group :production do
 end
 
 
-gem 'spree', '3.0.4'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+# gem 'spree', '~> 3.0.0'
+
+# gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+# gem 'spree_print_invoice', github: 'spree-contrib/spree_print_invoice', branch: '3-0-stable'
+
+# gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
+# gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+# gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
+# gem 'globalize', '~> 5.0.0'
+
+gem 'spree', github: 'spree/spree', branch: '~> 3.1.0.beta'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '~> 3.1.0.beta'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '~> 3.1.0.beta'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: 'master'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: '~> 3.1.0.beta'
+
+# gem 'spree_multi_domain', git: 'git://github.com/spree/spree-multi-domain.git'
+
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
