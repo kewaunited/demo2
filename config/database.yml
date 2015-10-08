@@ -24,8 +24,8 @@ production:
   adapter: mysql
   eccoding: utf8
   reconnect: false
-  database: demo2_production
+  database: spree_production
   pool: 5
-  username: username
-  password: password
+  username: spree
+  password: 111111
   host: localhost
